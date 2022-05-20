@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-direction: column;
+}
+
+.menu {
+    text-align: center;
+    padding-top: 20vh;
+    margin-bottom: 25vh;
+    padding-bottom: 20px;
+}
+
+.google-logo { 
+    padding-bottom: 5px;
+  
+}
+
+.search-column {
+    padding: 8px;
+    border: 1px solid #d9d9d9;
+    width: 40vw;
+    height: 10px;
+    padding-bottom: 20px;
+    background:url(google-mic.png) no-repeat;
+    background-size: 1.5em;
+    background-position: 98.5%;
+    border-radius: 20px;
+    text-indent: 15px;
+    align-items: center;
+}
+
+.search-column:hover {
+    border-top-color: #a0a0a0;
+    border: 1px solid #b9b9b9;
+}
+
+.search-column:focus {
+    outline: none;
+    border: 1px soild #4d90fe;
+}
+
+.boxes {
+    padding-top: 20px;
+    margin: 0 auto;
+    width: 270px;
+    text-align: center;
+}
+
+.box {
+    display: inline-block;
+    color: #757575;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    font-size: 13px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f2f2f2;
+    padding: 8px 12px;
+}
+
+.box:hover {
+    cursor: default;
+    color: #222222;
+    border: 1px solid #c6c6c6;
+}
+
+.left {
+    float: left;
+}
+
+.nav-menu > li > a {
+    opacity: .75;
+    color: #000000;
+    padding: 0;
+    text-decoration: none;
+}
+
+.nav-menu > li > .colorme {
+    opacity: 1;
+}
+
+.nav-menu > li > a:hover, .nav-menu > li > a:visited, .nav-menu > li > a:focus {
+    background-color: white;
+    text-decoration: underline;
+}
+
+.nav-menu {
+    margin: 15px 5px;
+    list-style: none;
+}
+
+.nav-foot > li > a:hover, .nav-foot > li > a:visited, .nav-foot > li > a:focus {
+    background-color: white;
+    text-decoration: underline;
+}
+
+.nav-foot li a {
+    list-style: none;
+    text-decoration: none;
+}
+
+.nav li {
+    margin-right: 15px;
+    float: right;
+}
+
+.first-button {
+    margin-top: 4.5px;
+}
+
+.btn, .btn:active {
+    background: -webkit-linear-gradient(top, #4387fd, #4683ea);
+    border: 1px solid #4285f4;
+    border-radius: 2px;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 4px 10.5px;
+    color: white;
+}
+
+.btn.focus, .btn:focus, .btn:hover, .btn:visited, .btn:active {
+    cursor: default;
+    color: white;
+}
+
+.nav > li > a > img {
+    opacity: .75;
+}
+
+.nav > li > a > img:hover {
+    opacity: 1;
+    cursor: default;
+}
+
+footer {
+    border-top: 1px solid #e4e4e4;
+    padding: 15px 0px 5px 10px;
+    margin-bottom: 0;
+    background-color: #f2f2f2;
+    max-height: 40px;
+    clear: both;
+    width: 99.3%;
+    position: absolute;
+    bottom: 0;
+  
+}
+
+.this-bottom {
+    margin-bottom: 0;
+    padding: 0px 10px;
+    display: inline-block;
+}
+
+.this-bottom li a {
+    letter-spacing: 0.2px;
+    color: #666666;
+}
+
+.this-bottom li {
+    list-style-type: none;
+    margin-right: 27px;
+}
+
+.leftb {
+    float: left;
+}
+
+.rightb {
+    padding-right: 20px;
+    float: right;
+}
